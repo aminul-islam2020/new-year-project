@@ -297,3 +297,122 @@
 }
 
 /* New offer section style ends here */
+
+/* Holiday section style starts here */
+
+.holiday-container {
+    max-width: 1320px;
+    height: 900px;
+    margin: 0 auto;
+    gap: 20;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.holiday-text {
+    text-align: center;
+}
+
+.holiday-sub {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday-span {
+    color: #F00;
+}
+
+.holiday-info {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.discount-container {
+    background-image: url("Images/Rectangle\ 2.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.gift {
+    width: 278.09px;
+}
+
+.fifty {
+    width: 206.841px;
+    height: 206.841px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-right: -500px;
+}
+
+
+/* Holiday section style ends here */
+
+/* Portfolio section style stars here */
+.portfolio {
+    max-width: 1320px;
+    height: 900px;
+    margin: 0 auto;
+    gap: 20;
+    margin-bottom: 120px;
+}
+
+.portfolio-img {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.portfolio-item {
+    width: 424px;
+    height: 450px;
+}
+
+/* Portfolio section style ends here */
