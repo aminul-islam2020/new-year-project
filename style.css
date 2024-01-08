@@ -1,4 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Header Style starts here */
+.header{
+    margin-top: 50px;
+}
 
 .header-container {
     background-image: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)),
@@ -18,6 +26,7 @@
     font-weight: 400;
     line-height: normal;
     padding-top: 177px;
+    margin-bottom: 16px;
 }
 
 .header-sub-title {
@@ -38,3 +47,62 @@
 }
 
 /* Header styles ends here */
+
+/*Offer section styles starts here */
+.offer-container {
+    text-align: center;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.offer-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-bottom: 48px;
+}
+
+.offer-info {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.offer-sub-title {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.offer-img {
+    width: 802.9px;
+    height: 500px;
+}
+
+/* Offer section styles ends here */
+
+/* Party section style starts here */
+
+/* Party section style ends here */
