@@ -10,7 +10,7 @@
 
 .header-container {
     background-image: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)),
-        url('/Images/Banner\ Image.png');
+        url('Images/Banner\ Image.png');
     background-position: center;
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 
 .party-container {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-        url('/Images/Vectorrr.png');
+        url('Images/Vectorrr.png');
     text-align: center;
     max-width: 1320px;
     height: 600px;
