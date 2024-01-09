@@ -372,7 +372,6 @@
 /* Portfolio section style stars here */
 .portfolio {
     max-width: 1320px;
-    height: 900px;
     margin: 0 auto;
     gap: 20;
     margin-bottom: 120px;
@@ -416,3 +415,123 @@
 }
 
 /* Portfolio section style ends here */
+/* Newletter section style starts here */
+
+.newsletter-container {
+    max-width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.newsletter-img {
+    width: 150px;
+    height: 150px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.newsletter-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+
+.newsletter-description {
+    max-width: 896px;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    /* 160% */
+}
+
+.newsletter-input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    width: 438px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Newletter section style ends here */
+/* Footer section style starts here */
+.footer-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.line {
+    width: 75%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 20px auto;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.social-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer-container{
+    background: #070211;
+    width: 1600px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.copyright{
+    margin-top: 50px;
+}
+/* Footer section style ends here */
